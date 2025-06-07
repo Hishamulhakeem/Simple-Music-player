@@ -21,7 +21,8 @@ Whether you're a casual user looking to listen to music or a developer exploring
 
 > *(Insert UI screenshots here)*  
 > Example:  
-> ![Screenshot](screenshots/music-player-ui.png)
+> ![image](https://github.com/user-attachments/assets/b2e9a3da-0e2e-4169-a1db-9f2085d16430)
+
 
 ---
 
