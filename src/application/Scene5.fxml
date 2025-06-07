@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller4">
+   <left>
+      <AnchorPane prefHeight="351.0" prefWidth="356.0" styleClass="button" stylesheets="@application.css" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="bn" layoutX="228.0" layoutY="307.0" mnemonicParsing="false" onAction="#next" prefHeight="41.0" prefWidth="36.0" />
+            <ProgressBar fx:id="bar" layoutX="24.0" layoutY="279.0" prefHeight="18.0" prefWidth="309.0" progress="0.0" />
+            <Label fx:id="label" layoutX="25.0" layoutY="241.0" prefHeight="21.0" prefWidth="276.0" />
+            <Button fx:id="bres" layoutX="126.0" layoutY="307.0" mnemonicParsing="false" onAction="#reset" prefHeight="41.0" prefWidth="36.0" />
+            <Button fx:id="bpr" layoutX="13.0" layoutY="307.0" mnemonicParsing="false" onAction="#pre" prefHeight="41.0" prefWidth="36.0" />
+            <Button fx:id="bpl" layoutX="73.0" layoutY="307.0" mnemonicParsing="false" onAction="#play" prefHeight="41.0" prefWidth="36.0" textFill="#d45f69" />
+            <Button fx:id="bpa" layoutX="179.0" layoutY="307.0" mnemonicParsing="false" onAction="#pause" prefHeight="41.0" prefWidth="36.0" textFill="#eeff00" />
+            <Slider fx:id="vs" layoutX="18.0" layoutY="36.0" orientation="VERTICAL" prefHeight="216.0" prefWidth="14.0" value="50.0" />
+            <ComboBox fx:id="bs" layoutX="279.0" layoutY="307.0" onAction="#changeSpeed" prefHeight="38.0" prefWidth="74.0" promptText="speed" style="-fx-background-color: white;" />
+            <ImageView fx:id="img" fitHeight="244.0" fitWidth="293.0" layoutX="68.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imag" fitHeight="41.0" fitWidth="39.0" layoutX="12.0" layoutY="305.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imag1" fitHeight="41.0" fitWidth="39.0" layoutX="71.0" layoutY="305.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imag2" fitHeight="41.0" fitWidth="39.0" layoutX="124.0" layoutY="305.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imag3" fitHeight="41.0" fitWidth="39.0" layoutX="175.0" layoutY="305.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imag4" fitHeight="41.0" fitWidth="39.0" layoutX="227.0" layoutY="305.0" pickOnBounds="true" preserveRatio="true" />
+            <Button fx:id="ba" layoutX="6.0" layoutY="8.0" mnemonicParsing="false" onAction="#ba" prefHeight="30.0" prefWidth="36.0" />
+            <ImageView fx:id="im" fitHeight="34.0" fitWidth="39.0" layoutX="7.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </AnchorPane>
+   </left>
+</BorderPane>
